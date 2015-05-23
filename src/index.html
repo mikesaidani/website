@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Mike Saidani | Full-Stack Web Developer</title>
+
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+<body>
+  <header>
+    <div class="teint"></div>
+    <div class="container">
+      <ul id="menu">
+        <li><a href="http://blog.mikesaidani.com" target="_blank">Blog</a></li>
+      </ul>
+      
+      <div id="infos">
+        <h1>Mike Saidani</h1>
+        <h2>Full-Stack Web Developer</h2>
+        <ul>
+          <li><a><i class="icon-email"></i></a><span>hello@mikesaidani.com</span></li>
+          <li><a href="https://twitter.com/mikesaidani" target="_blank"><i class="icon-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/mikesaidani" target="_blank"><i class="icon-linkedin"></i></a></li>
+          <li><a href="https://github.com/mikesaidani" target="_blank"><i class="icon-github"></i></a></li>
+        </ul>
+      </div>
+
+      <a id="arrow" href="#about">
+        <i class="icon-angle-down"></i>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2>About me</h2>
+        <div class="wrapper">
+          <div class="split">
+            <p>I'm a self-taught full-stack developer with 12 years of experience as a hobbyist and a few in the industry during which i had the chance to experiment with many languages and frameworks.</p>
+            <p>I especially enjoy working on challenging projects because they give me the best opportunity to learn new technologies and polish my skill-set. </p>       
+          </div>
+          <div class="split">
+            <div class="circle">
+               <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Node.js</li>
+                <li>AngularJS</li>
+                <li>PHP</li>
+                <li>Ruby</li>
+                <li>Go</li>
+                <li>Javascript</li>
+                <li>MongoDB</li>
+              </ul>         
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <h2>My work</h2>
+        <ul>
+          <li>
+            <a href="http://frosted.mikesaidani.com" target="_blank">
+              <img src="assets/images/resume.png">
+              <div class="overlay">
+                <h3>Console Resume</h3>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="http://letscook.mikesaidani.com" target="_blank">
+              <img src="assets/images/cook.png">
+              <div class="overlay">
+                <h3>Recipes landing page</h3>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="http://peertransfer.mikesaidani.com" target="_blank">
+              <img src="assets/images/peer.png">
+              <div class="overlay">
+                <h3>Peertransfer Redesign</h3>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>Copyright © 2015, Mike Saidani.</span>
+    </div>
+  </footer>
+
+  <script>
+    var hero = document.querySelector('header');
+    hero.style.height = window.innerHeight - 40 + 'px';
+  </script>
+</body>
+</html>
